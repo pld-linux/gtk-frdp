@@ -64,9 +64,7 @@ Summary(pl.UTF-8):	API języka Vala do biblioteki gtk-frdp
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 Requires:	vala
-%if "%{_rpmversion}" >= "4.6"
 BuildArch:	noarch
-%endif
 
 %description -n vala-gtk-frdp
 Vala API for gtk-frdp library.
